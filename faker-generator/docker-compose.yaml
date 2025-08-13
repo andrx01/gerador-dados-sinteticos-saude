@@ -1,0 +1,12 @@
+services:
+  generator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: faker-generator
+    env_file: .env
+    volumes:
+      - ./out:/landing
+      - ./src:/app/src
+    working_dir: /app
+    tty: true
