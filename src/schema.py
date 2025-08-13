@@ -1,0 +1,25 @@
+SCHEMA_VERSION = "v1"
+
+COLUMNS = [
+    "schema_version",
+    "order_id",
+    "order_datetime_utc",
+    "status",
+    "customer_name",
+    "customer_email",
+    "customer_city",
+    "customer_state",
+    "product_id",
+    "product_name",
+    "product_category",
+    "supplier_name",
+    "manufacturer_name",
+    "quantity",
+    "unit_price",
+    "discount",
+    "gross_value",
+    "net_value",
+    "payment_method",
+    "paid_datetime_utc",
+    "is_late",
+]
