@@ -1,5 +1,0 @@
-pandas==2.2.2
-faker==25.9.1
-python-dotenv==1.0.1
-loguru==0.7.2
-pyarrow==17.0.0
